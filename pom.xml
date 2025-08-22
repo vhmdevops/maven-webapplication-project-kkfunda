@@ -94,19 +94,19 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-              <name>Mohan-release-repo</name>
-              <url>http://13.127.228.45:8081/repository/Mohan-release-repo/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	    <id>nexus</id>
-              <name>mohan-snapshot-repo</name>
-              <url>http://13.127.228.45:8081/repository/mohan-snapshot-repo/</url>
-		</snapshotRepository>
-		</distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>Mohan-release-repo</name>
+        <url>http://13.127.228.45:8081/repository/Mohan-release-repo/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>mohan-snapshot-repo</name>
+        <url>http://13.127.228.45:8081/repository/mohan-snapshot-repo/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
