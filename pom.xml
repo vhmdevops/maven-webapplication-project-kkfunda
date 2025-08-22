@@ -21,7 +21,7 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://65.1.2.168:9000</sonar.host.url>
+		<sonar.host.url>http://52.66.145.214:9000/sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>kandaladevops</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
     <repository>
         <id>nexus</id>
         <name>Mohan-release-repo</name>
-        <url>http://13.127.228.45:8081/repository/Mohan-release-repo/</url>
+        <url>http://43.205.118.3:8081/repository/Mohan-release-repo//</url>
     </repository>
 
     <snapshotRepository>
         <id>nexus</id>
         <name>mohan-snapshot-repo</name>
-        <url>http://13.127.228.45:8081/repository/mohan-snapshot-repo/</url>
+        <url>http://43.205.118.3:8081/repository/mohan-snapshot-repo//</url>
     </snapshotRepository>
 </distributionManagement>
 
